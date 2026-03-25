@@ -19,7 +19,6 @@ mc.pitch(f_1, viertel_note)
 for _ in range(2):
     mc.pitch(g_1, halbe_note)
 
-
 for _ in range(4):
     mc.pitch(a_1, viertel_note)
 
