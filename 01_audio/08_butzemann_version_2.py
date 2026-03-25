@@ -30,6 +30,7 @@ def notenblock():
     mc.pitch(g_1, viertel_note)
     mt.sleep(achtel_note)
 
+
 for _ in range(10):
     notenblock()
     notenblock()
