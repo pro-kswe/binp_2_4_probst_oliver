@@ -1,0 +1,10 @@
+planeten = ["Merkur", "Venus", "Erde", "Mars", "Jupiter", "Saturn", "Uranus", "Neptun"]
+print(planeten)
+print(planeten[0])
+print(planeten[1])
+print(planeten[2])
+print(planeten[3])
+print(planeten[4])
+print(planeten[5])
+print(planeten[6])
+print(planeten[7])
