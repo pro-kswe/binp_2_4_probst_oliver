@@ -15,4 +15,7 @@ for _ in range(5):
     print("Zufälliger Planet")
     i = rd.randrange(0, 8)
     print(planeten[i])
-    
+
+print("Alle Planeten")
+for i in range(0, 8):
+    print(planeten[i])
