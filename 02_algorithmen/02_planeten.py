@@ -19,3 +19,12 @@ for _ in range(5):
 print("Alle Planeten")
 for i in range(0, 8):
     print(planeten[i])
+
+print("Nochmal alle Planeten")
+for i in range(0, 8):
+    print(f"{i}. Planet: {planeten[i]}")
+
+print("Ein letztes Mal alle Planeten")
+for i in range(0, 8):
+    print(f"{i + 1}. Planet: {planeten[i]}")
+
