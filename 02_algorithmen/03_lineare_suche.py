@@ -1,12 +1,14 @@
+import random as rd
+
 # Eingabe
-k = int(input("Nach welcher Zahl möchten Sie suchen?"))
-zahlen = [71, 26, 8, 42, 90, 5, 7, 20, 3, 99, 1023, 50]
+k = input("Nach welcher Zahl möchten Sie suchen?")
+zahlen = rd.sample(range(1, 1001), 20)
 
 
 # Verarbeitung
 resultat = "NEIN"
 
-for i in range(0, len(zahlen)):
+for i in range(0, 9):
     
     zahl = zahlen[i]
     
