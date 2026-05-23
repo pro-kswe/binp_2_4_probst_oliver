@@ -6,6 +6,7 @@ zahlen = rd.sample(range(1, 1001), 20)
 
 # Verarbeitung
 resultat = "NEIN"
+
 for i in range(0, len(zahlen)):
     zahl = zahlen[i]
     if zahl == k:
